@@ -34,7 +34,7 @@ in order to get all packages and node modules.
 | DEPLOYMENT     | URL                                                       | STATUS    |
 | -------------- | --------------------------------------------------------- | --------- |
 | Repository     | [GitHub Repo](https://github.com/calvin-kim13/textEditor) | ACTIVE 🟢 |
-| Published Page | [Bug Tracker]()                                           | ACTIVE 🟢 |
+| Published Page | [Text Editor](https://evening-wave-77861.herokuapp.com/)  | ACTIVE 🟢 |
 
 ## Contributors
 
