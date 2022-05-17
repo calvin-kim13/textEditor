@@ -19,7 +19,7 @@ export const putDb = async (content) => {
   const store = tx.objectStore("jate");
   const request = store.put({ content: content });
   const result = await request;
-  console.log("🚀 - data saved to the database", result);
+  console.log("🚀 - data saved to the database");
 };
 
 export const getDb = async () => {
@@ -30,7 +30,7 @@ export const getDb = async () => {
   const request = store.getAll();
   const result = await request;
   if (result) {
-    console.log("got the data", result.content);
+    console.log("got the data");
     return result.content;
   } else {
     console.error("could not get data");
