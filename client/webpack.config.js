@@ -18,7 +18,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "J.A.T.E",
+        title: "T.E",
       }),
       new MiniCssExtractPlugin(),
       new InjectManifest({
@@ -26,8 +26,8 @@ module.exports = () => {
         swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
-        name: "Just Another Text Editor",
-        short_name: "J.A.T.E",
+        name: "Text Editor",
+        short_name: "T.E.",
         description: "Takes notes with javascript",
         background_color: "#225ca3",
         theme_color: "#225ca3",
